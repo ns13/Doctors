@@ -1,7 +1,7 @@
 Doctors Web Application
 ========================
 
-This is a web application for managing medical pre-operation and post-operation for patients and cases. Doctors login, create patient and case profiles. The application allows managing medical cases and the different users of the aplication (admin, simple user, manager). This application uses Symfony version 2.5 and AJAX for an enhanced user experience. 
+This is a web application for managing medical pre-operation and post-operation for patients and cases. Doctors login, create patient and case profiles. The application allows managing medical cases and the different users of the application (admin, simple user, manager). This application uses Symfony version 2.5 and AJAX for an enhanced user experience. 
 
 This software is perfectly suited for cosmetic surgons,dermatologists, and hospitals who need to share or train doctors or students.
 
@@ -49,13 +49,13 @@ After you download composer, run the following command:
     php composer.phar install
 
 ### Import the database
-	
-You'd need to import this sql source file to your DBMS 
+
+You'd need to import this sql source file to your DBMS
 
 	https://github.com/benaich/Doctors/blob/master/app/Resources/database.sql
 
 ## Run the server
-	
+
 	php app/console server:run
 
 Enjoy!
